@@ -1,4 +1,4 @@
-# QuantumGandiva AI · Sales Coach
+# QuantumGandiva AI Assesment · Sales Coach
 
 A local, standalone real-estate calling workspace. A human agent calls a real phone from the browser; the AI listens to both sides, suggests a specific next move, and summarizes the conversation after hangup.
 
