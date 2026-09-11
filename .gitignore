@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+
+# Secrets / local env (NEVER commit API keys)
+.env
+.env.local
+.env.*.local
+
+# Node / frontend
+node_modules/
+frontend/dist/
+frontend/.env
+
+# SQLite workspace database
+data/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# AI tool configs (local settings, not project code)
+.claude/
+.serena/cache/
+.serena/memories/
+.serena/project.local.yml
+CLAUDE.md
+
+# Headroom proxy
+.headroom_wrap_settings.lock
+
+# ngrok
+*.ngrok-free.app
+
+# Logs
+*.log
+logs/
+
+# Coverage / testing artifacts
+.coverage
+htmlcov/
+.pytest_cache/
+
+# uv lock (optional — uncomment if you want reproducible installs committed)
+# uv.lock
